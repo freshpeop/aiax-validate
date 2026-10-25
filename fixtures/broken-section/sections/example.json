@@ -1,0 +1,21 @@
+{
+  "aiax_version": "0.1",
+  "section_id": "example",
+  "purpose": "Example",
+  "inputs": {},
+  "outputs": {},
+  "pricing": {
+    "model": "invalid",
+    "amount": "free",
+    "currency": "USD",
+    "rail": "x402"
+  },
+  "examples": [
+    {
+      "description": "Example",
+      "request": {},
+      "response": {}
+    }
+  ],
+  "pact_mandate_template": null
+}

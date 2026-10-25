@@ -1,0 +1,20 @@
+{
+  "aiax_version": "0.1",
+  "product": {
+    "one_line_purpose": "Offline tests",
+    "domain": "testing"
+  },
+  "entry_points": [
+    {
+      "id": "example",
+      "url": "/sections/example.json",
+      "purpose": "Example",
+      "est_tokens": 100
+    }
+  ],
+  "pricing_summary": null,
+  "trust_signals": {},
+  "mcp_endpoint": null,
+  "updated_at": "2026-10-25T00:00:00Z",
+  "extra": true
+}

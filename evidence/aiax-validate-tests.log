@@ -1,0 +1,29 @@
+
+> @freshpeop/aiax-validate@0.1.0 test
+> node --test test/*.test.js
+
+✔ A1 valid manifest and resolved sections score 100 with no errors (36.032417ms)
+✔ A1 fallback uses manifest URL for relative section resolution (1.8705ms)
+﹣ A1 official sites live check, opt in (0.064375ms) # SKIP
+✔ A2 missing names its JSON pointer (0.360667ms)
+✔ A2 wrong type names its JSON pointer (0.274875ms)
+✔ A2 extra field names its JSON pointer (0.364041ms)
+✔ A2 bad id names its JSON pointer (0.249542ms)
+✔ A2 invalid date names its JSON pointer (0.218666ms)
+✔ A2 present broken manifest is not hidden by fallback (0.20025ms)
+✔ A3 section missing is rejected (0.229834ms)
+✔ A3 section pricing is rejected (0.198209ms)
+✔ A3 section mismatch is rejected (0.14975ms)
+✔ A3 unavailable and non-JSON sections fail explicitly (0.369459ms)
+✔ missing manifest returns an invalid report, never success (0.158459ms)
+✔ A4 CLI JSON, plain output, fixtures and all exit codes (899.577458ms)
+✔ A5 broken fixtures are included and independently invalid (8.868625ms)
+✔ fixture traversal cannot read outside its directory (2.029042ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 1
+ℹ todo 0
+ℹ duration_ms 1090.283542

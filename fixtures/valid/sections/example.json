@@ -1,0 +1,16 @@
+{
+  "aiax_version": "0.1",
+  "section_id": "example",
+  "purpose": "Example",
+  "inputs": {},
+  "outputs": {},
+  "pricing": null,
+  "examples": [
+    {
+      "description": "Example",
+      "request": {},
+      "response": {}
+    }
+  ],
+  "pact_mandate_template": null
+}
