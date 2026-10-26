@@ -8,7 +8,7 @@ node src/cli.js https://lax.kognai.ai --json
 node src/cli.js https://offline.invalid --fixtures fixtures/valid
 ```
 
-The executable name is `aiax-validate`. This candidate is not published to npm yet; publication and the unscoped package name are release gates, not completed acceptance items.
+Package: `@donkim3/aiax-validate`; executable: `aiax-validate`. After release, run `npx --package=@donkim3/aiax-validate aiax-validate https://lax.kognai.ai --json`. The unscoped npm package `aiax-validate` belongs to another publisher. Acceptance of this scoped package for the bounty remains unconfirmed.
 
 ```js
 import { validateSite } from './src/index.js';
@@ -21,4 +21,4 @@ The score is 100 minus 5 per error and 1 per warning, floored at zero. Current c
 
 `--fixtures <directory>` maps every URL's path to a local file, including the manifest and sections. A missing file is HTTP 404. No fixture-mode fetch uses the network. Use fixtures only from a trusted directory. The tool fetches URLs referenced by a site, so only validate sites authorized in your environment.
 
-`npm test` checks A1-A5 with independently malformed documents, format errors, CLI subprocesses and path containment. The two official live sites are checked only with `AIAX_LIVE=1 npm test`. The live result is recorded separately from fixture tests. Publication remains outstanding even when tests pass.
+`npm test` checks A1-A5 with independently malformed documents, format errors, CLI subprocesses and path containment. The two official live sites are checked only with `AIAX_LIVE=1 npm test`. The live result is recorded separately from fixture tests. npm publication and buyer acceptance are separate from these tests.

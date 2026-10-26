@@ -1,8 +1,41 @@
 {
-  "name":"@freshpeop/aiax-validate", "version":"0.1.0", "type":"module", "private":true,
-  "description":"AIAX 0.1 manifest and section validator with deterministic offline fixtures",
-  "main":"src/index.js", "exports":"./src/index.js", "bin":{"aiax-validate":"src/cli.js"},
-  "files":["src","schemas","README.md","LICENSE","NOTICE"], "license":"MIT", "engines":{"node":">=20"},
-  "scripts":{"test":"node --test test/*.test.js"},
-  "dependencies":{"ajv":"^8.17.1","ajv-formats":"^3.0.1"}
+  "name": "@donkim3/aiax-validate",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "AIAX 0.1 manifest and section validator with deterministic offline fixtures",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "aiax-validate": "src/cli.js"
+  },
+  "files": [
+    "src",
+    "schemas",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freshpeop/aiax-validate.git"
+  },
+  "homepage": "https://github.com/freshpeop/aiax-validate#readme",
+  "bugs": {
+    "url": "https://github.com/freshpeop/aiax-validate/issues"
+  }
 }
