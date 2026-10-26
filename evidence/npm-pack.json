@@ -1,0 +1,66 @@
+[
+  {
+    "id": "@donkim3/aiax-validate@0.1.0",
+    "name": "@donkim3/aiax-validate",
+    "version": "0.1.0",
+    "size": 7190,
+    "unpackedSize": 19958,
+    "shasum": "7683979bb446b3b48cca09c83c3892429b1c0b15",
+    "integrity": "sha512-VcaFDHT5u3ypO+Wkr1z8hE6BQsQw05pyXIHmh7Lq8SSQfqFFOtIoXZ0V1zsQqnlP3kDhNIWy1vJ0R9Zt3uQ36w==",
+    "filename": "donkim3-aiax-validate-0.1.0.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 1066,
+        "mode": 420
+      },
+      {
+        "path": "NOTICE",
+        "size": 342,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 2095,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 917,
+        "mode": 420
+      },
+      {
+        "path": "schemas/LICENSE",
+        "size": 1318,
+        "mode": 420
+      },
+      {
+        "path": "schemas/manifest.schema.json",
+        "size": 4145,
+        "mode": 420
+      },
+      {
+        "path": "schemas/section.schema.json",
+        "size": 3932,
+        "mode": 420
+      },
+      {
+        "path": "src/cli.js",
+        "size": 1206,
+        "mode": 420
+      },
+      {
+        "path": "src/fixtures.js",
+        "size": 708,
+        "mode": 420
+      },
+      {
+        "path": "src/index.js",
+        "size": 4229,
+        "mode": 420
+      }
+    ],
+    "entryCount": 10,
+    "bundled": []
+  }
+]
