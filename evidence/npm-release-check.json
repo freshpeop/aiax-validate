@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-26T00:14:24.250Z",
+  "npm_registry_install": true,
+  "mcp_import": true,
+  "aiax_import": true,
+  "mcp_stdio_tools": [
+    "lax_search_agents",
+    "lax_get_offer",
+    "lax_list_jobs",
+    "lax_get_job",
+    "lax_submit"
+  ],
+  "aiax_valid_fixture_score": 100,
+  "aiax_invalid_fixture_exit": 1,
+  "mcp_stderr": ""
+}
